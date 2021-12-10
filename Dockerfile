@@ -1,4 +1,4 @@
-FROM wz2cool/sonarqube-branch:7.1
+FROM sonarqube:6.7.7-community
 Core Tier1 capital adequacy ratio
 RUN rm -rf  /opt/sonarqube/extensions/plugins/sonar-java-plugin-*.jar
 RUN ls /opt/sonarqube/extensions/plugins
