@@ -7,4 +7,4 @@ RUN wget https://repo1.maven.org/maven2/org/sonarsource/java/sonar-java-plugin/4
 RUN mv sonar-java-plugin-4.15.0.12310.jar /opt/sonarqube/extensions/plugins/
 RUN ls /opt/sonarqube/extensions/plugins
 
-RUN echo 'sonar.ce.workerCount=5' >> /opt/sonarqube/conf/sonar.properties
+RUN echo -n 'sonar.ce.workerCount=5' >> /opt/sonarqube/conf/sonar.properties
