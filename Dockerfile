@@ -1,4 +1,4 @@
-FROM sonarqube:6.7.7-community
+FROM sonarqube:6.6
 
 RUN rm -rf  /opt/sonarqube/extensions/plugins/sonar-java-plugin-*.jar
 RUN ls /opt/sonarqube/extensions/plugins
